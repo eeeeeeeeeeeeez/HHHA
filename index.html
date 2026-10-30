@@ -1,174 +1,193 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    <meta name="facebook-domain-verification" content="ypfs6xbgaverqt0oeydcn34v18d239" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新寶實業有限公司 | SHIH BAU LIMITED COMPANY</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        body { font-family: 'Noto Sans TC', system-ui, sans-serif; }
-        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://picsum.photos/id/1015/2000/1200') center/cover; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>成佳國際車業有限公司</title>
+<meta name="description" content="成佳國際車業有限公司，桃園市龜山區。汽機車批發與零售、汽機車零件配備、車胎、汽車修理、租賃及國際貿易。">
+<!-- 如需 Facebook 網域驗證，請在此貼上你自己的 meta 驗證碼：
+<meta name="facebook-domain-verification" content="你的驗證碼" /> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --asphalt:#1d2226;
+  --asphalt-2:#2a3036;
+  --paper:#eef0f0;
+  --line:#c9cfd2;
+  --stripe:#e6b422;
+  --ink:#1d2226;
+  --mute:#5d676e;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Noto Sans TC',system-ui,-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif;color:var(--ink);background:var(--paper);line-height:1.75}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--stripe);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+header{background:var(--asphalt);color:#fff}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+header strong{font-weight:700;letter-spacing:.08em}
+header nav{display:flex;gap:28px;font-size:15px}
+header nav a{text-decoration:none;color:#c8d0d4}
+header nav a:hover{color:#fff}
+
+.hero{background:var(--asphalt);color:#fff;padding:96px 0 0}
+.hero h1{font-weight:900;font-size:clamp(44px,9vw,104px);line-height:1.05;letter-spacing:.02em}
+.hero p{margin-top:28px;max-width:34em;font-size:clamp(17px,2.2vw,21px);color:#c8d0d4}
+.hero .meta{margin-top:20px;font-size:14px;color:#8d989f}
+.lane{margin-top:80px;height:10px;background:repeating-linear-gradient(90deg,var(--stripe) 0 56px,transparent 56px 96px)}
+
+section{padding:88px 0}
+h2{font-size:clamp(26px,3.4vw,34px);font-weight:900;letter-spacing:.04em;margin-bottom:40px}
+
+.facts{display:grid;grid-template-columns:200px 1fr;border-top:2px solid var(--ink)}
+.facts dt,.facts dd{padding:16px 0;border-bottom:1px solid var(--line)}
+.facts dt{color:var(--mute);font-size:15px}
+.facts dd{font-weight:500}
+.facts .sub{display:block;font-weight:400;color:var(--mute);font-size:14px;margin-top:2px}
+
+.ops{background:#fff}
+.group{display:grid;grid-template-columns:200px 1fr;gap:0 24px;padding:28px 0;border-top:1px solid var(--line)}
+.group:first-of-type{border-top:2px solid var(--ink)}
+.group h3{font-size:19px;font-weight:700}
+.group ul{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:6px 24px}
+.group li{padding-left:16px;position:relative}
+.group li::before{content:"";position:absolute;left:0;top:.8em;width:8px;height:3px;background:var(--stripe)}
+.note{margin-top:28px;font-size:14px;color:var(--mute)}
+
+.contact{background:var(--asphalt);color:#fff}
+.contact h2{margin-bottom:28px}
+.contact .grid{display:grid;grid-template-columns:200px 1fr;gap:18px 24px;max-width:720px}
+.contact .k{color:#8d989f;font-size:15px}
+.contact .v{font-size:18px}
+.contact a{text-decoration:underline;text-underline-offset:4px}
+.todo{background:var(--stripe);color:var(--ink);padding:0 6px;font-weight:700}
+
+footer{background:#14181b;color:#8d989f;font-size:14px;padding:36px 0}
+footer p+p{margin-top:6px}
+
+@media (max-width:700px){
+  header nav{gap:18px;font-size:14px}
+  .hero{padding-top:64px}
+  .lane{margin-top:56px}
+  section{padding:64px 0}
+  .facts,.group,.contact .grid{grid-template-columns:1fr}
+  .facts dt{border-bottom:0;padding-bottom:0}
+  .group ul{grid-template-columns:1fr}
+  .group h3{margin-bottom:12px}
+  .contact .k{margin-bottom:-10px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body>
 
-    <!-- Header -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-blue-600 text-white flex items-center justify-center text-xl font-bold rounded">新寶</div>
-                <div>
-                    <h1 class="text-xl font-bold">新寶實業有限公司</h1>
-                    <p class="text-sm text-gray-500">SHIH BAU LIMITED COMPANY</p>
-                </div>
-            </div>
-            <nav class="hidden md:flex gap-8 text-lg">
-                <a href="#about" class="hover:text-blue-600">關於我們</a>
-                <a href="#services" class="hover:text-blue-600">服務項目</a>
-                <a href="#contact" class="hover:text-blue-600">聯絡我們</a>
-            </nav>
-        </div>
-    </header>
+<header>
+  <div class="wrap">
+    <strong>成佳國際車業</strong>
+    <nav aria-label="主選單">
+      <a href="#info">登記資料</a>
+      <a href="#business">營業項目</a>
+      <a href="#contact">聯絡方式</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- Hero -->
-    <section class="hero h-screen flex items-center text-white">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <h2 class="text-5xl md:text-6xl font-bold mb-6">專業實業 • 值得信賴</h2>
-            <p class="text-2xl mb-8">新寶實業有限公司<br>合法登記 • 營業中</p>
-            <a href="#contact" class="inline-block bg-blue-600 hover:bg-blue-700 px-10 py-4 rounded-lg text-xl font-medium transition">
-                聯絡我們
-            </a>
-        </div>
-    </section>
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <h1>成佳國際<br>車業有限公司</h1>
+      <p>位於桃園市龜山區，經營汽機車批發與零售、汽機車零件配備、車胎、汽車修理、租賃及國際貿易。</p>
+      <p class="meta">2023 年 3 月核准設立　桃園市政府登記</p>
+    </div>
+    <div class="lane" aria-hidden="true"></div>
+  </div>
 
-    <!-- Company Info -->
-    <section class="py-16 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">法定登記資訊</h2>
-            <div class="grid md:grid-cols-2 gap-10">
-                <div class="space-y-6">
-                    <div class="flex gap-4">
-                        <i class="fa-solid fa-building text-3xl text-blue-600 mt-1"></i>
-                        <div>
-                            <p class="font-medium text-lg">統一編號</p>
-                            <p class="text-3xl font-bold text-blue-600">93380130</p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="font-medium">組織類型</p>
-                        <p class="text-xl">有限公司</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="font-medium mb-2">公司所在地</p>
-                    <p class="text-lg leading-relaxed">
-                        新北市板橋區龍泉街54巷8弄5號<br>
-                        No. 5, Aly. 8, Ln. 54, Longquan St., Banqiao Dist.,<br>
-                        New Taipei City 220035, Taiwan (R.O.C.)
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="info">
+    <div class="wrap">
+      <h2>公司登記資料</h2>
+      <dl class="facts">
+        <dt>公司名稱</dt><dd>成佳國際車業有限公司</dd>
+        <dt>統一編號</dt><dd>82993132</dd>
+        <dt>代表人</dt><dd>李健維</dd>
+        <dt>公司類型</dt><dd>有限公司</dd>
+        <dt>公司狀況</dt><dd>核准設立</dd>
+        <dt>資本總額</dt><dd>新臺幣 3,000,000 元</dd>
+        <dt>登記機關</dt><dd>桃園市政府</dd>
+        <dt>核准設立日期</dt><dd>民國 112 年 3 月 10 日</dd>
+        <dt>最後核准變更</dt><dd>民國 113 年 8 月 5 日</dd>
+        <dt>公司所在地</dt>
+        <dd>桃園市龜山區龜山里萬壽路二段660巷3號(2樓)
+          <span class="sub">2 F., No. 3, Ln. 660, Sec. 2, Wanshou Rd., Guishan Vil., Guishan Dist., Taoyuan City 333019, Taiwan (R.O.C.)</span>
+        </dd>
+      </dl>
+    </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="py-20 bg-gray-100">
-        <div class="max-w-6xl mx-auto px-6">
-            <div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-8">關於新寶實業</h2>
-                <p class="text-lg leading-relaxed text-gray-700">
-                    新寶實業有限公司（SHIH BAU LIMITED COMPANY）成立於台灣，是一家合法登記的實業公司。
-                    我們嚴格遵守國家工商法規，致力提供專業、高品質的各項商業服務。
-                    憑藉穩健的經營理念與專業團隊，我們持續為客戶創造價值。
-                </p>
-                <div class="mt-10 inline-flex items-center gap-2 bg-green-100 text-green-700 px-6 py-3 rounded-full">
-                    <i class="fa-solid fa-circle-check"></i>
-                    <span class="font-medium">稅籍狀態：營業中</span>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section id="business" class="ops">
+    <div class="wrap">
+      <h2>營業項目</h2>
 
-    <!-- Services -->
-    <section id="services" class="py-20 bg-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">服務項目</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">
-                    <i class="fa-solid fa-handshake text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-semibold mb-3">商業顧問與諮詢</h3>
-                    <p class="text-gray-600">提供企業經營策略、市場分析等專業顧問服務。</p>
-                </div>
-                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">
-                    <i class="fa-solid fa-truck text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-semibold mb-3">貿易與物流</h3>
-                    <p class="text-gray-600">國際貿易、國內物流及供應鏈管理服務。</p>
-                </div>
-                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition">
-                    <i class="fa-solid fa-building text-4xl text-blue-600 mb-6"></i>
-                    <h3 class="text-xl font-semibold mb-3">實業投資開發</h3>
-                    <p class="text-gray-600">各類實業項目投資、開發與管理。</p>
-                </div>
-            </div>
-        </div>
-    </section>
+      <div class="group">
+        <h3>車輛買賣</h3>
+        <ul>
+          <li>汽車批發業</li>
+          <li>機車批發業</li>
+          <li>汽車零售業</li>
+          <li>無店面零售業</li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3>零件配備與車胎</h3>
+        <ul>
+          <li>汽、機車零件配備批發業</li>
+          <li>汽、機車零件配備零售業</li>
+          <li>車胎批發業</li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3>修理與租賃</h3>
+        <ul>
+          <li>汽車修理業</li>
+          <li>租賃業</li>
+        </ul>
+      </div>
+      <div class="group">
+        <h3>貿易與仲介</h3>
+        <ul>
+          <li>國際貿易業</li>
+          <li>仲介服務業</li>
+        </ul>
+      </div>
 
-    <!-- Contact -->
-    <section id="contact" class="py-20 bg-gray-900 text-white">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">聯絡我們</h2>
-            <div class="grid md:grid-cols-2 gap-12">
-                <div>
-                    <p class="text-xl mb-6">歡迎透過以下方式與我們聯繫</p>
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <i class="fa-solid fa-map-marker-alt text-2xl mt-1"></i>
-                            <div>
-                                <p class="font-medium">公司地址</p>
-                                <p>新北市板橋區龍泉街54巷8弄5號</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <i class="fa-solid fa-phone text-2xl mt-1"></i>
-                            <div>
-                                <p class="font-medium">電話</p>
-                                <p>+886-0976701901</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <i class="fa-solid fa-envelope text-2xl mt-1"></i>
-                            <div>
-                                <p class="font-medium">Email</p>
-                                <p>tvivl@vvw.dpdns.org</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-gray-800 p-8 rounded-3xl">
-                    <h3 class="text-2xl mb-6">合作洽詢</h3>
-                    <form class="space-y-6">
-                        <input type="text" placeholder="您的姓名" class="w-full px-5 py-4 bg-gray-700 rounded-xl">
-                        <input type="email" placeholder="您的 Email" class="w-full px-5 py-4 bg-gray-700 rounded-xl">
-                        <textarea placeholder="訊息內容" rows="5" class="w-full px-5 py-4 bg-gray-700 rounded-xl"></textarea>
-                        <button type="button" onclick="alert('表單已送出！')" 
-                                class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-medium">
-                            送出訊息
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+      <p class="note">以上為公司登記之所營事業，並依法令規定經營；需經許可之業務，須取得許可後方得營業。</p>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-black text-gray-400 py-10 text-center">
-        <div class="max-w-6xl mx-auto px-6">
-            <p>© 2026 新寶實業有限公司 SHIH BAU LIMITED COMPANY</p>
-            <p class="mt-2 text-sm">統一編號：93380130　|　新北市板橋區龍泉街54巷8弄5號</p>
-        </div>
-    </footer>
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>聯絡方式</h2>
+      <div class="grid">
+        <div class="k">地址</div>
+        <div class="v">桃園市龜山區萬壽路二段660巷3號(2樓)</div>
+        <div class="k">電話</div>
+        <div class="v"><span class="todo">請填入電話</span></div>
+        <div class="k">Email</div>
+        <div class="v"><span class="todo">請填入 Email</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© 2026 成佳國際車業有限公司　統一編號 82993132</p>
+    <p>登記資料以經濟部商工登記公示資料及主管機關公告為準。</p>
+  </div>
+</footer>
 
 </body>
 </html>
